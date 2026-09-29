@@ -71,3 +71,5 @@ def delete_product(
         raise HTTPException(403)
     db.delete(product)
     return {"status": "deleted"}
+```
+No third-party systems were tested, and no data belonging to anyone else was involved.
