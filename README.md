@@ -1,6 +1,6 @@
 # Cyber Security Journey
 
-Hi, I'm **Julian Jarrett**. I'm an IT Support professional with 4+ years of experience across 1st, 2nd and 3rd line support, currently transitioning into cyber security.
+Hi, I'm **Julian Jarrett**. I'm an IT Support professional with 4+ years' experience across 1st, 2nd and 3rd line support, currently transitioning into cyber security.
 
 This repository documents my hands-on learning: home lab builds, vulnerability write-ups, and tools I'm building along the way.
 
