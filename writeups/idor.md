@@ -31,6 +31,7 @@ me by sending a single request, with no token and no session:
 
 ```bash
 curl -X DELETE http://192.168.56.10:8000/products/42
+\\\
 
 The server responded `200 OK` and the product was gone from the database. That
 was the whole vulnerability — one unauthenticated request.
