@@ -28,7 +28,7 @@ write-ups, and tools I'm building along the way.
 ## Contact
 
 - Email: kjcjarrett92@gmail.com
-- LinkedIn: *(www.linkedin.com/in/julian-jarrett-12249a183)*
+- LinkedIn: www.linkedin.com/in/julian-jarrett-12249a183
 
 ## A note on ethics
 
