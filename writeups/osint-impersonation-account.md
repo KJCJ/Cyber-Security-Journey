@@ -1,6 +1,7 @@
 # OSINT Investigation: Unmasking an Impersonation Account
 
 **Date:** October 2, 2026
+**Analyst:** Julian Jarrett (KJCJ)
 
 ## Overview
 
@@ -10,6 +11,7 @@ The investigation used a combination of automated username enumeration tools and
 
 ## Tools Used
 
+- **Kali Linux**: The operating system used for the investigation.
 - **Sherlock**: A command-line tool for hunting down usernames across more than 400 social networks.
 - **Maigret**: A more advanced OSINT tool that collects a dossier on a person by username from over 3,000 sites, extracting detailed profile information and finding linked accounts.
 
@@ -24,3 +26,66 @@ The first step was to see where the username `gaialove55551` was registered.
 **Installation (on Kali Linux):**
 ```bash
 sudo apt install sherlock
+```
+
+**Execution:**
+```bash
+sherlock gaialove55551 --print-found
+```
+
+**Key Findings:**
+Sherlock returned 45 results. However, many were false positives (e.g., Reddit and 7Cups explicitly showed "user not found"). The most significant result was a profile on TikTok.
+
+### 2. Deeper Analysis with Maigret
+
+To get more detailed information and find linked accounts, Maigret was used.
+
+**Installation (using pipx is recommended):**
+```bash
+pipx install maigret
+```
+
+**Execution:**
+```bash
+maigret gaialove55551 --html
+```
+
+**Key Findings:**
+Maigret's output was far more precise. It confirmed the TikTok account and extracted its public metadata, which was the critical piece of evidence.
+
+- **TikTok Profile:** `https://www.tiktok.com/@gaialove55551`
+- **Bio:** "Come with me on my vow of Nunhood until I buy myself my first home (1st goal). Painter, Palm Reader, Witch, Spiritual Reading and offer Spiritual Cleansing"
+- **Following:** 971
+- **Followers:** 48
+- **Likes:** 38
+- **Verified:** No
+
+This data revealed a heavily unbalanced follower-to-following ratio, a common indicator of a bot or spam account.
+
+### 3. Manual Verification & Discovery
+
+The final and most crucial step was manually visiting the identified profile. The TikTok page `@gaialove55551` contained pinned videos with a clear warning from the real account owner.
+
+**The Evidence:**
+The pinned video stated: *"Hello guys Pls don't fall a victim of this account they are trying to impersonate me... Kindly report and block this account immediately they message you."*
+
+*[Placeholder: Insert Screenshot of Fake TikTok Profile with Pinned Warning Here]*
+
+Upon further investigation, the real person was identified as **Queen Nefertiti 👑** on Instagram, who has a significantly larger and more legitimate following (7,760 followers). She had already posted warnings to her audience about the impersonator.
+
+*[Placeholder: Insert Screenshot of Instagram DM to Queen Nefertiti Here]*
+
+## Conclusion
+
+The OSINT investigation was successful. The `gaialove55551` account was definitively identified as an impersonation scam. The combination of automated tools (Sherlock, Maigret) and manual verification (checking profile pages and pinned videos) provided clear, irrefutable evidence.
+
+### Key Takeaways
+
+- **Automated tools are a starting point, not a conclusion.** Tools like Sherlock and Maigret are excellent for discovery, but their results must be manually verified to filter out false positives.
+- **Maigret provides more context** than Sherlock, as it can extract specific profile details and metadata that are crucial for assessment.
+- **Behavioral red flags are critical.** An unbalanced follower ratio, stolen content, and a warning from the real person are definitive signs of an impersonation account.
+- **Documentation is key.** Recording every step, command, and finding creates a reproducible and valuable educational resource.
+
+## Disclaimer
+
+This investigation was conducted purely for educational purposes using publicly available information. All data was accessed and analyzed ethically, with no attempts to access private information or harass the individuals involved. Always respect platform terms of service and privacy laws.
