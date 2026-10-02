@@ -34,7 +34,8 @@ The lab runs on an **isolated network** so nothing vulnerable is ever exposed to
 
 - **Kali VM:** Burp Suite, Nmap, Wireshark, Metasploit, sqlmap
 - **Ubuntu target:** Ubuntu Server 24.04 LTS, OpenSSH server installed
-- **Local AI assistant:** Ollama running Dolphin-Mistral for offline analysis of code and security concepts (no data leaves the machine)
+- **AI assistant:** DeepSeek Cloud (via API / desktop harness) used for code analysis, vulnerability research, and drafting write-ups.Data Privacy Note: All sensitive data (real IPs, credentials, client info) is strictly sanitized or replaced with placeholders before being submitted to the cloud AI.
+-**Local AI Experiment**: Briefly tested Ollama locally (DeepSeek-R1:8b) to understand LLM deployment, but found hardware constraints (Intel Iris Xe iGPU, 16GB RAM) make local inference too slow for practical daily use.
 
 ## Why isolation matters
 
