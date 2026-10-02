@@ -71,7 +71,8 @@ She had already posted warnings to her audience about the impersonator on her or
 **The Evidence:**
 The pinned video on the **original** profile stated: *"Hello guys Pls don't fall a victim of this account they are trying to impersonate me... Kindly report and block this account immediately they message you."* The fake account does not have this warning; it only contains stolen content.
 
-<img width="590" height="1278" alt="IMG_5447" src="https://github.com/user-attachments/assets/690344a6-4894-4462-a807-8bd785e3cbbe" />
+<img width="590" height="1278" alt="IMG_5448" src="https://github.com/user-attachments/assets/1cffcc6b-5012-4666-8e99-e9defda8aa89" />
+
 
 <img width="590" height="1278" alt="IMG_5445" src="https://github.com/user-attachments/assets/6ac5da83-e105-42f1-a51a-b180a7679083" />
 
