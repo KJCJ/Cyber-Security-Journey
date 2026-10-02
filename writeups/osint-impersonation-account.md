@@ -55,23 +55,23 @@ Maigret's output was far more precise. It confirmed the TikTok account and extra
 
 - **TikTok Profile:** `https://www.tiktok.com/@gaialove55551`
 - **Bio:** "Come with me on my vow of Nunhood until I buy myself my first home (1st goal). Painter, Palm Reader, Witch, Spiritual Reading and offer Spiritual Cleansing"
-- **Following:** 971
-- **Followers:** 48
-- **Likes:** 38
+- **Following:** 2,542
+- **Followers:** 251
+- **Likes:** 165
 - **Verified:** No
 
 This data revealed a heavily unbalanced follower-to-following ratio, a common indicator of a bot or spam account.
 
 ### 3. Manual Verification & Discovery
 
-The final and most crucial step was manually visiting the identified profile. The TikTok page `@gaialove55551` contained pinned videos with a clear warning from the real account owner.
+The final and most crucial step was manually visiting the identified profile. Upon further investigation, the real person was identified as **Queen Nefertiti 👑** on Instagram (username: `@gaialove5555`), who has a significantly larger and more legitimate following (7,759 followers and 29K likes). 
+
+She had already posted warnings to her audience about the impersonator on her original profile. 
 
 **The Evidence:**
-The pinned video stated: *"Hello guys Pls don't fall a victim of this account they are trying to impersonate me... Kindly report and block this account immediately they message you."*
+The pinned video on the **original** profile stated: *"Hello guys Pls don't fall a victim of this account they are trying to impersonate me... Kindly report and block this account immediately they message you."* The fake account does not have this warning; it only contains stolen content.
 
-*[Placeholder: Insert Screenshot of Fake TikTok Profile with Pinned Warning Here]*
-
-Upon further investigation, the real person was identified as **Queen Nefertiti 👑** on Instagram, who has a significantly larger and more legitimate following (7,760 followers). She had already posted warnings to her audience about the impersonator.
+*[Placeholder: Insert Screenshot of Original TikTok Profile with Pinned Warning Here]*
 
 *[Placeholder: Insert Screenshot of Instagram DM to Queen Nefertiti Here]*
 
