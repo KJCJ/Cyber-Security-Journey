@@ -35,6 +35,7 @@ This repository documents my hands-on learning: home lab builds, vulnerability w
 ## Current Projects
 
 - **Na You Get (NYG):** A live Flutter-based marketplace app for Sierra Leone. I am currently conducting security reconnaissance on the codebase, documenting the architecture, and preparing for vulnerability assessments.
+- **Status:** Active development & security audit. [View Architecture Draft](nyg_architecture.md).
 
 ## Write-ups
 
