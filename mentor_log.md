@@ -1,4 +1,4 @@
-# Mentor Context: Julian (Nebuchadnezzar)
+# Mentor Context: Julian
 
 ## Who I Am
 - IT Professional transitioning to Cybersecurity.
